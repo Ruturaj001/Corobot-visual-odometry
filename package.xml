@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <name>corobot_visual_odometry</name>
+  <version>1.0.0</version>
+  <description>The corobot_visual_odometry package</description>
+
+  <maintainer email="rbh9982@rit.edu">corobot</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msg</build_depend>
+  <build_depend>libpcl-all-dev</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msg</run_depend>
+  <run_depend>libpcl-all</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>cv_bridge</run_depend>
+
+</package>
